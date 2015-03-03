@@ -26,5 +26,5 @@ The B-chromosomer pipeline includes following stages:
 5. Extraction chain fasta and gff files.
 6. Adding external gene and repeat annotation or any other if available.
 7. Adding linkage group information according to the linkage group map.
-8. Extraction gene annotation information including GO, KEGG, SwissProt, TrEMBL, and InterPro annotation for following manual analysis.
+8. Extraction of gene annotation information including GO, KEGG, SwissProt, TrEMBL, and InterPro annotation for following manual analysis.
 
