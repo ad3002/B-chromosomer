@@ -18,10 +18,11 @@ Microdissection reads usually contain only small fraction of target sequences an
 Input data for pipeline should be cleaned out from possible adapters and low quality reads.
 
 Pipeline include following stages:
+
 1. Mapping all reads to the reference genome with bowtie2 program in global sensitive mode.
 2. Removing all duplicates and unmapped reads with MQ<2 (unmapped and repeated).
 3. Computing reads coverage with bedtools.
-4. Joining chains with give spacer size with bedtools.
+4. Joining chains with given spacer size with bedtools (default is 30 kb).
 5. Extraction chain fasta and gff files.
 6. Adding external gene and repeat annotation or any other if available.
 7. Adding linkage group information according to the linkage group map.
