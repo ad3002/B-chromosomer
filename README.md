@@ -17,7 +17,7 @@ Microdissection reads usually contain only small fraction of target sequences an
 
 Input data for pipeline should be cleaned out from possible adapters and low quality reads.
 
-Pipeline include following stages:
+The B-chromosomer pipeline includes following stages:
 
 1. Mapping all reads to the reference genome with bowtie2 program in global sensitive mode.
 2. Removing all duplicates and unmapped reads with MQ<2 (unmapped and repeated).
