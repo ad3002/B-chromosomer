@@ -20,7 +20,7 @@ Input data for pipeline should be cleaned out from possible adapters and low qua
 The B-chromosomer pipeline includes following stages:
 
 1. Mapping all reads to the reference genome with bowtie2 program in global sensitive mode.
-2. Removing all duplicates and unmapped reads with MQ<2 (unmapped and repeated).
+2. Removing all duplicates and unmapped reads from bowtie2 output, reads with MQ<2 (unmapped and repeated).
 3. Computing reads coverage with bedtools.
 4. Joining chains with given spacer size with bedtools (default is 30 kb).
 5. Extraction chain fasta and gff files.
